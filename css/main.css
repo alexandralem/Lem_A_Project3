@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+p {
+    color: #fff;
+    line-height: 100px;
+    background-color: #000;
+    text-align: center;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #313131;
+}
+
+a:hover, a:active {
+    text-decoration: none;
+    color: #666;
+}
+
+.hidden {
+    display: none;
+}
+
+
+#siteContainer {
+    margin: 0 auto;
+    width: 920px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Home Page */
+
+#mainHeader {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 0px;
+    overflow: hidden;
+    
+}
+
+#logo {
+    width: 250px;
+    float: left;
+}
+
+#mainNav {
+    float: right;
+    width: 600px;
+}
+
+#promo {
+    margin-bottom: 40px;
+}
+
+#promo p {
+    line-height: 350px;
+}
+
+#introText {
+    margin-bottom: 40px;
+}
+
+
+#introText p {
+    line-height: 280px;
+}
+
+#statistics {
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+#statistics p {
+    line-height: 400px;
+}
+
+#statisticsText {
+    float: left;
+    width: 450px;
+}
+
+#statisticsImg {
+    float: right;
+    width: 450px;
+}
+
+#statisticsImg p {
+    line-height: 400px;
+}
+
+#promo-2 {
+    margin-bottom: 40px;
+}
+
+#promo-2 p {
+    line-height: 400px;
+}
+
+
+#mainFooter {
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+
+#footerNav {
+    float: right;
+    width: 600px;
+    
+}
+
+#copyRight {
+    float: left;
+    width: 300px;
+    
+}
+
+/* About Us Page */
+
+#aboutInfo {
+    width: 560px;
+    margin-bottom: 40px;
+    margin: auto;
+}
+
+#aboutInfo p {
+    line-height: 550px;
+}
+
+#news {
+    margin-bottom: 40px;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+#news p {
+    line-height: 365px;
+}
+
+.posts {
+    float: left;
+    width: 290px;
+    margin-right: 25px;
+}
+
+.postsLast {
+    float: right;
+    width: 290px;
+}
